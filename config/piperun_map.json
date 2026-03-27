@@ -1,0 +1,323 @@
+{
+  "pipelines": {
+    "99251": {
+      "id": 99251,
+      "name": "INBOUND",
+      "channel": "inbound",
+      "stages": {
+        "649889": {
+          "id": 649889,
+          "name": "[Parceria] - HAND-OFF REALIZADO",
+          "order": 6,
+          "finish_probability": 0
+        },
+        "636106": {
+          "id": 636106,
+          "name": "EM CONTATO",
+          "order": 2,
+          "finish_probability": 0
+        },
+        "636105": {
+          "id": 636105,
+          "name": "NOVO LEAD INBOUND",
+          "order": 0,
+          "finish_probability": 0
+        },
+        "636103": {
+          "id": 636103,
+          "name": "REAGENDAMENTO",
+          "order": 3,
+          "finish_probability": 0
+        },
+        "636102": {
+          "id": 636102,
+          "name": "[Clientes] - HAND-OFF REALIZADO",
+          "order": 5,
+          "finish_probability": 0
+        },
+        "636101": {
+          "id": 636101,
+          "name": "REUNIÃO AGENDADA",
+          "order": 4,
+          "finish_probability": 0
+        },
+        "636100": {
+          "id": 636100,
+          "name": "TENTATIVA DE CONTATO",
+          "order": 1,
+          "finish_probability": 0
+        }
+      }
+    },
+    "99265": {
+      "id": 99265,
+      "name": "OUTBOUND",
+      "channel": "outbound",
+      "stages": {
+        "645782": {
+          "id": 645782,
+          "name": "HAND-OFF REALIZADO",
+          "order": 6,
+          "finish_probability": 0
+        },
+        "645781": {
+          "id": 645781,
+          "name": "REAGENDAMENTO",
+          "order": 4,
+          "finish_probability": 0
+        },
+        "645780": {
+          "id": 645780,
+          "name": "REUNIÃO AGENDADA",
+          "order": 5,
+          "finish_probability": 0
+        },
+        "645779": {
+          "id": 645779,
+          "name": "EM CONTATO",
+          "order": 3,
+          "finish_probability": 0
+        },
+        "645778": {
+          "id": 645778,
+          "name": "TENTATIVA DE CONTATO",
+          "order": 2,
+          "finish_probability": 0
+        },
+        "636188": {
+          "id": 636188,
+          "name": "ANÁLISE DE CONTAS",
+          "order": 1,
+          "finish_probability": 0
+        },
+        "636187": {
+          "id": 636187,
+          "name": "EMPRESAS ALVO",
+          "order": 0,
+          "finish_probability": 0
+        }
+      }
+    },
+    "100612": {
+      "id": 100612,
+      "name": "CLOSER",
+      "channel": "outbound",
+      "stages": {
+        "654102": {
+          "id": 654102,
+          "name": "PROXIMOS PASSOS",
+          "order": 4,
+          "finish_probability": 0
+        },
+        "654101": {
+          "id": 654101,
+          "name": "POC",
+          "order": 5,
+          "finish_probability": 0
+        },
+        "650016": {
+          "id": 650016,
+          "name": "PÓS-REUNIÃO - Assumir Card ⭐",
+          "order": 0,
+          "finish_probability": 0
+        },
+        "645789": {
+          "id": 645789,
+          "name": "GANHO",
+          "order": 8,
+          "finish_probability": 0
+        },
+        "645788": {
+          "id": 645788,
+          "name": "ASSINATURA",
+          "order": 7,
+          "finish_probability": 0
+        },
+        "645787": {
+          "id": 645787,
+          "name": "NEGOCIAÇÃO",
+          "order": 6,
+          "finish_probability": 0
+        },
+        "645786": {
+          "id": 645786,
+          "name": "PROPOSTA ENVIADA",
+          "order": 3,
+          "finish_probability": 0
+        },
+        "645785": {
+          "id": 645785,
+          "name": "FOLLOW-UP",
+          "order": 2,
+          "finish_probability": 0
+        },
+        "645784": {
+          "id": 645784,
+          "name": "REUNIÃO REALIZADA",
+          "order": 1,
+          "finish_probability": 0
+        }
+      }
+    },
+    "100816": {
+      "id": 100816,
+      "name": "PRÉ-OUTBOUND",
+      "channel": "outbound",
+      "stages": {
+        "647280": {
+          "id": 647280,
+          "name": "HAND-OFF",
+          "order": 2,
+          "finish_probability": 0
+        },
+        "647279": {
+          "id": 647279,
+          "name": "VALIDAÇÃO DE DADOS",
+          "order": 1,
+          "finish_probability": 0
+        },
+        "647278": {
+          "id": 647278,
+          "name": "ENTRADA REQUALIFICAÇÃO",
+          "order": 0,
+          "finish_probability": 0
+        }
+      }
+    },
+    "100986": {
+      "id": 100986,
+      "name": "PARCERIAS",
+      "channel": "referral",
+      "stages": {
+        "652854": {
+          "id": 652854,
+          "name": "CONTATO",
+          "order": 0,
+          "finish_probability": 0
+        },
+        "652853": {
+          "id": 652853,
+          "name": "REUNIÃO AGENDADA",
+          "order": 1,
+          "finish_probability": 0
+        },
+        "648548": {
+          "id": 648548,
+          "name": "GANHO",
+          "order": 6,
+          "finish_probability": 0
+        },
+        "648547": {
+          "id": 648547,
+          "name": "ASSINATURA",
+          "order": 5,
+          "finish_probability": 0
+        },
+        "648545": {
+          "id": 648545,
+          "name": "PROPOSTA ENVIADA",
+          "order": 4,
+          "finish_probability": 0
+        },
+        "648542": {
+          "id": 648542,
+          "name": "FOLLOW-UP",
+          "order": 3,
+          "finish_probability": 0
+        },
+        "648541": {
+          "id": 648541,
+          "name": "REUNIÃO REALIZADA",
+          "order": 2,
+          "finish_probability": 0
+        }
+      }
+    },
+    "100787": {
+      "id": 100787,
+      "name": "FUNIL TRANSITÓRIO - NÃO TRABALHAR",
+      "channel": "other",
+      "stages": {
+        "647022": {
+          "id": 647022,
+          "name": "INICIAL",
+          "order": 0,
+          "finish_probability": 0
+        }
+      }
+    }
+  },
+  "users": {
+    "101713": {
+      "id": 101713,
+      "name": "Flavia Linhares",
+      "email": "flavia.linhares@cogtive.com"
+    },
+    "101667": {
+      "id": 101667,
+      "name": "Bruno Fonseca",
+      "email": "bruno.fonseca@cogtive.com"
+    },
+    "101266": {
+      "id": 101266,
+      "name": "Gabriel Kessler",
+      "email": "gabriel.kessler@cogtive.com"
+    },
+    "98969": {
+      "id": 98969,
+      "name": "Rafael Moraes",
+      "email": "gestao.midiaperformance@gmail.com"
+    },
+    "98821": {
+      "id": 98821,
+      "name": "Deise Bernardo",
+      "email": "deise.bernardo@cogtive.com"
+    },
+    "98819": {
+      "id": 98819,
+      "name": "Felipe Cardoso",
+      "email": "felipe.cardoso@cogtive.com"
+    },
+    "98818": {
+      "id": 98818,
+      "name": "Leonardo Oliveira",
+      "email": "leonardo.oliveira@cogtive.com"
+    },
+    "98817": {
+      "id": 98817,
+      "name": "Magnum Menezes",
+      "email": "magnum.menezes@cogtive.com"
+    },
+    "98771": {
+      "id": 98771,
+      "name": "Augusto Suzuki",
+      "email": "augusto.suzuki@cogtive.com"
+    },
+    "98691": {
+      "id": 98691,
+      "name": "Regnier Sampaio",
+      "email": "regnier.sampaio@cogtive.com"
+    },
+    "98690": {
+      "id": 98690,
+      "name": "Fabiano Toledo",
+      "email": "fabiano.toledo@cogtive.com"
+    },
+    "98689": {
+      "id": 98689,
+      "name": "Eduardo Budiski",
+      "email": "eduardo.budiski@cogtive.com"
+    },
+    "98688": {
+      "id": 98688,
+      "name": "Rodrigo Voi",
+      "email": "rodrigo.voi@cogtive.com"
+    },
+    "97254": {
+      "id": 97254,
+      "name": "Leonardo Orpinelli",
+      "email": "leonardo.orpinelli@cogtive.com"
+    }
+  },
+  "updated_at": "2026-03-27T16:15:44.705472"
+}
